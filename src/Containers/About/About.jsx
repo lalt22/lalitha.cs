@@ -3,7 +3,7 @@ import styles from "./About.module.scss";
 const About = () => {
     return (
         <section id="about-me" className={styles.about}>
-            <img src="src\assets\profile.png"/>
+            <img src="/react_portfolio/src\assets\profile.png"/>
             <div className={styles.about_text}>
                 <h1>Hi, I'm Lalitha.</h1>
                 <p className={styles.about_p}>A Software Engineering student aspiring to become a full-stack developer. I'm passionate about solving problems, framing new ideas into real applications, and immersing myself in everything in Computer Science, from the bleeding edge to the foundations.
