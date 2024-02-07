@@ -1,0 +1,22 @@
+@use "../../partials/colors";
+
+.projects_section {
+    display: flex;
+    flex-direction: column;
+    & h1 {
+        @include colors.default-abt-text-color;
+        align-self: center;
+        font-size: 40px;
+        font-style: italic;
+     }
+}
+
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+    
+}

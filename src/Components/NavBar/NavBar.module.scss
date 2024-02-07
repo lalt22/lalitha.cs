@@ -1,0 +1,21 @@
+@use "../../partials/colors";
+
+.nav_bar {
+    display: flex;
+    flex-flow: row;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+    background-color:#eaf0eb;
+    & h1 {
+        margin-right: auto;
+        margin-left: 20px;
+        @include colors.default-nav-text-color;
+    }
+    & a {
+        margin-right: 20px;
+        @include colors.default-nav-text-color;
+    }
+}

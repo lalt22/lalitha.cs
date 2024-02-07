@@ -1,0 +1,42 @@
+@use "../../partials/colors";
+
+
+.project_card {
+    @include colors.default-nav-text-color;
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    gap: 50px;
+    padding-top: 50px;
+    & .project_img {
+        width: 600px;
+        height: 600px;
+        border-radius: 20%;
+
+        &:hover {
+            filter: grayscale(1);
+            box-shadow: #2d6a4f2f 0px 54px 55px, #2d6a4f2f 0px -12px 30px, #2d6a4f2f 0px 4px 6px, #2d6a4f2f 0px 12px 13px, #2d6a4f2f 0px -3px 5px;
+        }
+    }
+
+    & .info {
+        width:30%;
+    }
+
+    & .see_projects {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        & h3 {
+            margin-top: 0px;
+            padding: 0px;
+        }
+
+        & .icons {
+            display: flex;
+            justify-content: flex-start;
+            gap: 30px;
+        }
+    }
+
+}

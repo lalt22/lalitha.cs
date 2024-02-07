@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Google Books Search",
+        "image": "",
+        "github": "https://github.com/lalt22/google-books",
+        "deployed": "",
+        "description": "A UI for customers to be able to search for books using the Google Books API paired with React"
+    },
+
+    {
+        "name": "TheFakeReal",
+        "image": "src/assets/eshop.png",
+        "github": "https://github.com/lalt22/theFakeReal",
+        "deployed": "https://lalt22.github.io/theFakeReal/",
+        "description": "A React replica of online luxury consignment store TheRealReal using React frontend and Google Firestore backend"
+    },
+
+    {
+        "name": "CLI Message Board",
+        "image": "src/assets/jmb.png",
+        "github": "https://github.com/lalt22/java_message_board",
+        "description": "A Java-based multithreaded Command Line Interface app replicating TCP and UDP interactions between clients and servers in a message-board environment"
+    },
+
+    {
+        "name": "MineSweeper",
+        "image": "src/assets/minesweeper.png",
+        "github": "https://github.com/lalt22/minesweeper",
+        "description": "A Command Line Interface replica of classic Minesweeper, built in Java"
+    }
+
+]
