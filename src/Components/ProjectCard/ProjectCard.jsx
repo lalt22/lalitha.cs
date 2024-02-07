@@ -5,7 +5,7 @@ import github from  "../../assets/icons/github.png";
 const ProjectCard = ({project}) => {
     return (
         <div className={styles.project_card}>
-            <img src={`src/assets${project.image}`} className={styles.project_img}/>
+            <img src={`/react_portfolio/src/assets${project.image}`} className={styles.project_img}/>
             <div className={styles.info}>
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
