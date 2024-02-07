@@ -2,7 +2,7 @@
 
 .projects_section {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     & h1 {
         @include colors.default-abt-text-color;
         align-self: center;
@@ -17,6 +17,4 @@
     flex-flow: row wrap;
     justify-content: space-around;
     gap: 20px;
-
-    
 }

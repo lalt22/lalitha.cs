@@ -1,15 +1,23 @@
 [
     {
-        "name": "Google Books Search",
-        "image": "",
+        "name": "Morselish",
+        "image": "/morse.png",
+        "github": "https://github.com/lalt22/lalitha-morse-code",
+        "deployed": "https://lalt22.github.io/lalitha-morse-code/",
+        "description": "A two-way english-morse code translator built in HTML CSS/SCSS and vanilla JS"
+    },
+    
+    {
+        "name": "booksearch",
+        "image": "/books.png",
         "github": "https://github.com/lalt22/google-books",
-        "deployed": "",
+        "deployed": "https://lalt22.github.io/google-books/",
         "description": "A UI for customers to be able to search for books using the Google Books API paired with React"
     },
 
     {
         "name": "TheFakeReal",
-        "image": "src/assets/eshop.png",
+        "image": "/eshop.png",
         "github": "https://github.com/lalt22/theFakeReal",
         "deployed": "https://lalt22.github.io/theFakeReal/",
         "description": "A React replica of online luxury consignment store TheRealReal using React frontend and Google Firestore backend"
@@ -17,14 +25,14 @@
 
     {
         "name": "CLI Message Board",
-        "image": "src/assets/jmb.png",
+        "image": "/jmb.png",
         "github": "https://github.com/lalt22/java_message_board",
         "description": "A Java-based multithreaded Command Line Interface app replicating TCP and UDP interactions between clients and servers in a message-board environment"
     },
 
     {
         "name": "MineSweeper",
-        "image": "src/assets/minesweeper.png",
+        "image": "/minesweeper.png",
         "github": "https://github.com/lalt22/minesweeper",
         "description": "A Command Line Interface replica of classic Minesweeper, built in Java"
     }

@@ -1,7 +1,7 @@
 .stack {
     background-color:#2d6a4f ;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     & h1 {
         align-self: center;
         font-size: 40px;
@@ -11,7 +11,9 @@
 
     & .stack_list {
         display: flex;
+        flex-flow: row wrap;
         justify-content: space-around;
+        gap: 20px;
 
         & .stack_entry {
             display: flex;
